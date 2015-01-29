@@ -1,1 +1,1 @@
-{"rs":"1","result":{"point":"0","taskcount":33,"completecount":0,"tasklist":[{"gourpid":"gameclient.sign.0","name":"签到第6天","overtimes":1,"taskAward":{"type":0,"value":"70"},"taskid":"gameclient.sign.0.6","type":3},{"gourpid":"gameclient.sign.0","name":"签到第0天","overtimes":1,"taskAward":{"type":0,"value":"10"},"taskid":"gameclient.sign.0.0","type":3},{"gourpid":"gameclient.sign.0","name":"签到第1天","overtimes":1,"taskAward":{"type":0,"value":"20"},"taskid":"gameclient.sign.0.1","type":3}],"signcomplate":false},"msg":"success"}
+{"rs":1,"msg":"success","result":{"flag":520}}
