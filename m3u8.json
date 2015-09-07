@@ -1,1 +1,100 @@
-{"adStatus":1,"areaId":31,"cateCode":"115102;115103;115105","channelId":4,"cid":16,"coverImg":"http://photocdn.sohu.com/vrs/20131011/765631_1006750_tv_H_143732_27260/765631_1006750_tv_H_143732_27260_001_snap_001_150.jpg","duration":1478.137,"et":0,"highVid":"http://hot.vrs.sohu.com/ipad1006750_4625434413980_4217071.m3u8?plat=h5","ip":"123.126.48.48","isVip":0,"isdl":0,"ltype":0,"norVid":"http://hot.vrs.sohu.com/ipad1006751_4625434413980_4217072.m3u8?plat=h5","o_playlistId":5201732,"order":2,"oriVid":"","pid":368686430,"playlistid":1007474,"point":[],"quality":1,"st":0,"starList":[],"status":1,"superVid":"http://hot.vrs.sohu.com/ipad1352070_4625434413980_4563391.m3u8?plat=h5","tvBigPic":"http://photocdn.sohu.com/20130315/vrsb765631.jpg","tvCopyrightId":420,"tvCropPic":"http://photocdn.sohu.com/20130624/vrsa_ver1007474_00w75_pic31.jpg","tvSmallPic":"http://photocdn.sohu.com/20130315/vrss765631.jpg","tvid":765631,"vid":1006750,"videoDesc":"海军本部，营救艾斯之旅。","videoName":"航海王第2集","videoSubName":"","videoTimeStatus":0,"videoUrl":"http://tv.sohu.com/20130415/n372763498.shtml"}
+{
+    "commonParams": {
+            "version": "1.0",//当前SDK版本
+            "uid": "",//当前登录的用户
+            "token": "",//用户自注册接口会返回token值，用于用户身份的校验，自注册接口不用传
+            "channel": "appstore",//http://wiki.enjoyf.com/wiki/Appchannel
+            "time": "2015-09-06 13:12:29",
+            "platform": "0",//客户端平台(平台 0--ios,1--android,2--iPad)
+            "deviceId": "3DE12FB3-2BB8-48CA-AE57-5F4FBBEFB580",
+            "appkey": "2c046714d0a0085984f18c47462da305",//集成SDK的游戏唯一标识
+            "source": "0",//设备来源：0-正常,未知 1-越狱或root
+            "mock": "0",//模拟：0-正常,未知 1-模拟器 2-apk模拟器
+            "osv": "9.0",//操作系统版本
+            "screen": "1242x2208",
+        },
+    "eventInfo": [ {
+            "event": "UserCharge",//用户在点击支付后得到反馈后统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "serverId": "01",// 服务器ID
+                    "uid":"",//用户ID
+                    "roleName":"",//角色名
+                    "roleId":"",//角色ID
+                    "payMethod": "pay method",//支付方式
+                    "payAmount": "10",// 支付额度
+                    "productId": "100",//商品id
+                    "productName": "钻石",//商品名称
+                    "status":"爱贝状态",//支付状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "Init",//游戏启动后完成初始化
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "serverId": "01",// 服务器ID(可能为空)
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "UserRegister",//用户点击“注册”按钮得到反馈后统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid":"",//用户ID(可能为空，注册失败时)
+                    "logindomain":"client/qq/wechat/sina",//需要跟服务器端沟通手机号、账号、邮箱注册的类型
+                    "status":"",//注册状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "UserLogin",//用户点击登录得到反馈后统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid": "",//用户ID
+                    "logindomain":"",//logindomain                  
+                    "status":"",//登录状态
+                    "serverId": "01",// 服务器ID(可能为空)
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "UserLogout",//游戏中处理该用户离线操作
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid": "",//用户ID
+                    "logindomain":"",//logindomain                  
+                    "serverId": "01",// 服务器ID(可能为空)
+                    "status":"",//离线状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "RoleCreate",//用户在创建角色后得到反馈统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid": "uid",//用户ID
+                    "serverId": "01",// 服务器ID(可能为空)
+                    "roleName":"",//角色名
+                    "roleId":"",//角色ID
+                    "status":"0/1",//创建状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "RoleDelete",//用户在删除角色得到反馈后统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid": "uid",//用户ID
+                    "serverId": "01",// 服务器ID(可能为空)
+                    "roleName":"",//角色名
+                    "roleId":"",//角色ID
+                    "status":"0/1",//删除状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        },{
+            "event": "UserBind",//用户点击绑定得到反馈后统计
+            "params": {
+                    "time": "2015-09-06 13:12:17",//格式待定与服务器端讨论
+                    "uid":"",//用户ID
+                    "mobile":"mobile",//手机号码                    
+                    "status":"",//绑定状态
+                    "ip":"",//ip地址(可能为空)，转移到每个事件中
+                }
+        }
+    ]
+}
